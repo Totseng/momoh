@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - MOMOH's Baking Creations</title>
+    <style>
+        /* CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+    
+        
+        }
+        header {
+            background-color:  rgba(255, 255, 255, 0.8);
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 20px;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #fff;
+        }
+        section {
+            padding: 20px;
+            margin: auto;
+            max-width: 800px;
+            text-align: justify;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .service-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .service {
+            width: calc(33.33% - 20px);
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .service h2 {
+            color: black;
+            margin-bottom: 10px;
+        }
+        .service p {
+            line-height: 1.5;
+        }
+        .service span {
+            font-weight: bold;
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+        .footer-links {
+            margin-top: 10px;
+        }
+        .footer-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        .footer-links a:hover {
+            color: #ffa500;
+        }
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+        }
+        .video-background video {
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Services</h1>
+        <nav>
+            <a href="Home.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Service.html">Services</a>
+            <a href="Portfolio.html">Portfolio</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+    </header>
+    <!-- Background Video -->
+    <div class="video-background">
+        <video autoplay loop muted>
+            <source src="vid.mp4.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <section>
+        <div class="service-container">
+            <div class="service">
+                <h2>Biscuits</h2>
+                <p>Delicious and crispy biscuits made from the finest ingredients. Perfect for a quick snack or tea time. Price: <span>$5 per dozen</span></p>
+            </div>
+            <div class="service">
+                <h2>Scones</h2>
+                <p>Buttery and tender scones that melt in your mouth. Enjoy them with jam and cream for a delightful treat. Price: <span>$8 per six</span></p>
+            </div>
+            <div class="service">
+                <h2>Cakes</h2>
+                <p>Indulgent cakes for all occasions. From classic flavors to unique creations, we have something for everyone. Price: <span>Starting from $20</span></p>
+            </div>
+            <!-- Add more services here -->
+            <div class="service">
+                <h2>Muffins</h2>
+                <p>Moist and flavorful muffins that are perfect for breakfast or a midday snack. Choose from a variety of flavors. Price: <span>$6 per six</span></p>
+            </div>
+            <div class="service">
+                <h2>Cookies</h2>
+                <p>Irresistible cookies baked to perfection. Enjoy them with a glass of milk or as a sweet treat any time of day. Price: <span>$4 per dozen</span></p>
+            </div>
+            <div class="service">
+                <h2>Pies</h2>
+                <p>Homemade pies filled with delicious fruit or savory fillings. Perfect for dessert or a hearty meal. Price: <span>Starting from $15</span></p>
+            </div>
+            <div class="service">
+                <h2>Pastries</h2>
+                <p>Flaky and buttery pastries filled with sweet or savory ingredients. A delightful treat for any occasion. Price: <span>$10 per dozen</span></p>
+            </div>
+            <div class="service">
+                <h2>Bread</h2>
+                <p>Freshly baked bread made with high-quality ingredients. Perfect for sandwiches, toast, or as a side with meals. Price: <span>Starting from $5</span></p>
+            </div>
+            <div class="service">
+                <h2>Cupcakes</h2>
+                <p>Delightful cupcakes in various flavors and frostings. Perfect for parties, celebrations, or just as a sweet treat. Price: <span>$12 per six</span></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 MOMOH's Baking Creations. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Accessibility</a>
+        </div>
+    </footer>
+</body>
+</html>

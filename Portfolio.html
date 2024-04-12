@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - MOMOH's Baking Creations</title>
+    <style>
+        /* CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+            background-image: url('Portfolio.png'); /* Add your background image URL here */
+            background-size: cover;
+            background-position: center;
+        
+        }
+        header {
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 20px;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #fff;
+        }
+        section {
+            padding: 20px;
+            margin: auto;
+            max-width: 800px;
+            text-align: center;
+        }
+        h3{
+            color: black;
+            
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .portfolio-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            justify-items: center;
+            margin-top: 20px;
+        }
+        .portfolio-item {
+            background-color:rgba(255, 255, 255, 0.5);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .portfolio-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+        .footer-links {
+            margin-top: 10px;
+        }
+        .footer-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        .footer-links a:hover {
+            color: #ffa500;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portfolio</h1>
+        <nav>
+            <a href="Home.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Service.html">Services</a>
+            <a href="Portfolio.html">Portfolio</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+    </header>
+    <section>
+        <div class="portfolio-container">
+            <div class="portfolio-item">
+                <img src="biscuits.jpg" alt="Biscuits">
+                <h3>Biscuits</h3>
+                <p>Delicious and crispy biscuits made from the finest ingredients. Perfect for a quick snack or tea time.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="scones.jpg" alt="Scones">
+                <h3>Scones</h3>
+                <p>Buttery and tender scones that melt in your mouth. Enjoy them with jam and cream for a delightful treat.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="cakes.jpg" alt="Cakes">
+                <h3>Cakes</h3>
+                <p>Indulgent cakes for all occasions. From classic flavors to unique creations, we have something for everyone.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="muffins.jpg" alt="Muffins">
+                <h3>Muffins</h3>
+                <p>Moist and flavorful muffins that are perfect for breakfast or a midday snack. Choose from a variety of flavors.</p>
+            </div>
+            <!-- Additional items -->
+            <div class="portfolio-item">
+                <img src="cookies.jpg" alt="Cookies">
+                <h3>Cookies</h3>
+                <p>Irresistible cookies baked to perfection. Enjoy them with a glass of milk or as a sweet treat any time of day.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="pies.jpg" alt="Pies">
+                <h3>Pies</h3>
+                <p>Homemade pies filled with delicious fruit or savory fillings. Perfect for dessert or a hearty meal.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="Pastries.png" alt="Pastries">
+                <h3>Pastries</h3>
+                <p>Flaky and buttery pastries filled with sweet or savory ingredients. A delightful treat for any occasion.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="bread.jpg" alt="Bread">
+                <h3>Bread</h3>
+                <p>Freshly baked bread made with high-quality ingredients. Perfect for sandwiches, toast, or as a side with meals.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="cupcakes.jpg" alt="Cupcakes">
+                <h3>Cupcakes</h3>
+                <p>Delightful cupcakes in various flavors and frostings. Perfect for parties, celebrations, or just as a sweet treat.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 MOMOH's Baking Creations. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Accessibility</a>
+        </div>
+    </footer>
+</body>
+</html>
